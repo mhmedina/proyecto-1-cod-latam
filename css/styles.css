@@ -1,0 +1,186 @@
+* {
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #dddddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main {
+    width: 90%;
+    height: auto;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+
+}
+
+ul {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.LOGO_01 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.LOGO_01>img {
+    height: 100%;
+    width: 75%;
+}
+
+.menu-item {
+    margin: 0 50px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    transition: .3s ease all;
+    align-items: center;
+    transition: all .4s ease-in-out;
+
+}
+.menu-item:hover {
+    background: #3E4095;
+    color: #8a8975;
+    box-shadow: 3px 3px 50px rgba(0, 0, 0, .015);
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+    /* Fondo que combina con los grises utilizados */
+}
+
+.pic {
+    margin: 10px auto;
+    width: 200px;
+    height: 230px;
+    border-radius: 50%;
+    float: center;
+
+
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color:#3E4095;
+    padding-bottom: 20px;
+
+    
+}
+
+article {
+    line-height: 1.6em;
+    margin:30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.cv {
+    width: 250px;
+    height: 50px;
+    background-color: #3E4095;
+    color:#dddddd;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 5px;
+
+}
+
+figure {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0%;
+
+
+}
+
+.contenedorUno {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 25px;
+    height: 25px;
+    background: #fdfdfd;
+    border-radius: 10;
+    border: none;
+    cursor: pointer;
+    padding: 30;
+    color: rgb(130, 132, 134);
+    font-size: 20px;
+    transition: .3s ease all;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all .4s ease-in-out;
+}
+
+button:hover {
+    background: #3E4095;
+    color: #8a8975;
+    box-shadow: 3px 3px 50px rgba(0, 0, 0, .015);
+    align-items: center;
+
+}
+
+footer {
+    background-color: #dddddd;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:#3E4095;
+
+
+}
