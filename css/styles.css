@@ -38,7 +38,7 @@ nav {
 ul {
     list-style: none;
     font-family: 'Montserrat', sans-serif;
-    float: left;
+    /*float: left;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -56,7 +56,9 @@ ul {
 
 .LOGO_01>img {
     height: 100%;
-    width: 75%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*width: 75%;*/
 }
 
 .menu-item {
@@ -93,7 +95,7 @@ body {
     width: 200px;
     height: 230px;
     border-radius: 50%;
-    float: center;
+    /*float: center;*/
 
 
 }
